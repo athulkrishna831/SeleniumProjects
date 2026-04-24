@@ -38,7 +38,7 @@ public class DemoQAFormTest{
         js.executeScript("window.scrollBy(0,500)");
  
         // First Name
-        driver.findElement(By.id("Name")).sendKeys("Shiva");
+        driver.findElement(By.id("firstName")).sendKeys("Shiva");
  
         // Last Name
         driver.findElement(By.id("lastName")).sendKeys("Dath");
